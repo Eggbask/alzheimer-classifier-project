@@ -1,6 +1,6 @@
 # Alzheimer's Detection through MRI Classification
 
-This project is a web application that allows the user to upload a top-down MRI scan and receive a prediction of whether their scan shows early sign of Alzheimers. It consists of a FastAPI backend server running a trained Pytorch CNN model and a Next.js web app for user interaction.
+This project is a web application that allows the user to upload a top-down MRI scan and receive a prediction of whether their scan shows early signs of Alzheimers. It consists of a FastAPI backend server running a trained Pytorch CNN model and a Next.js web app for user interaction.
 
 ## Dependencies
 

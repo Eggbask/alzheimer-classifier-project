@@ -57,7 +57,7 @@ async def predict(file: UploadFile = File(...)):
     with torch.no_grad():
         output = model(image)
         prediction = torch.argmax(output, dim=1).item()
-    classes = ["Mild Demented", "Moderately Demented", "Non Demented", "Very Mild Demented"]
+    classes = ["Mildly Demented", "Moderately Demented", "Non Demented", "Very Mildly Demented"]
     return {"prediction": classes[prediction]}
 
 if __name__ == "__main__":
